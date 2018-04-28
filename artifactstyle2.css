@@ -52,3 +52,7 @@ clear:both;
  font-style: normal; 
  font-size:36px;
 }
+img {
+ margin-left: 5px;
+ margin-top:10px;
+ }
