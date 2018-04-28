@@ -4,9 +4,9 @@ body {
 	 padding: 0 15% 0 15%;
 }
 h1 {
-   text-alighn:center;
+   text-align:center;
    color:blue;
-   font=family:'DancingScriptRegular';
+   font=family: 'DancingScriptRegular';
    font-size:400%;
 }
 p { 
