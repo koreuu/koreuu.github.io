@@ -1,1 +1,60 @@
+* {
+	    font-family: Arial, Verdana, sans-serif;
+	    text-align: center;
+}
+h1 {
+        font-family: 'YoungSerifRegular'; 
+        font-weight: normal; 
+        font-style: normal; 
+}
+body {
+		width: 90%;
+		margin: 0 auto;
+        background-color:white;
+        background-image: url("https://magnitudeanimereviews.files.wordpress.com/2016/02/screenshot-2016-02-15-22-26-44.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+}
+#content {
+		overflow: auto;
+}
+#nav, #feature, #footer {
+		margin: 1%;
+}
+.column1, .column2, .column3 {
+		width: 31.3%;
+		float: left;
+		margin: 1%;
+}
+.column1 {
+        background-color:#41526A;
+}
+.column2 {
+        background-color:#416A69;
+}
+.column3 {
+		margin-right: 0%;
+        background-color:#768B8C;
+}
+li {
+		display: inline;
+		padding: 0.5em;
+}
+#nav, #footer {
+		background-color: #00F3FF;
+		padding: 0.5em 0;
+}
+#feature, .article {
+		height: 10em;
+		margin-bottom: 1em;
+}
+#feature {
+  color: black;
+  background-color: #D8DCDC;
+  background-image: url("http://www.clker.com/cliparts/K/h/F/J/z/D/mountains.svg");
+  background-size: contain;
+  background-position: right;
+  background-repeat:no-repeat;
+}
 
