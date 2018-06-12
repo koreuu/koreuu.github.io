@@ -1,0 +1,108 @@
+* {
+	    font-family: 'JelleeRoman';
+	    text-align: center;
+        font-weight: normal; 
+        font-style: normal; 
+        color: black;
+        font-size: 22px;
+}
+h1 {
+  font-size: 50px;
+}
+p.welcome {
+  text-align: left;
+  font-size: 18px;
+}
+body {
+		width: 100%;
+		margin: 0 auto;
+        background-color:white;
+        background-image: url("http://dreamatico.com/data_images/mountain/mountain-4.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+}
+#content {
+		overflow: auto;
+}
+#nav, #welcome, #footer {
+		margin: 1%;
+}
+.column1, .column2, .column3, .column4, .column5, .column6, #welcome, #footer, #nav {
+  border: solid black 2px;
+}
+.column1, .column2, .column3, .column4, .column5, .column6 {
+		width: 31.3%;
+		float: left;
+		margin: 1%;
+        vertical-align: middle;
+        line-height: 50px;
+}
+.column1 {
+        background-color:#41526A;
+        background-image: url("http://www.jamboree2017.sgtradingpost.online/uploads/11313582/Image/MountainSilhouette.png");
+        background-size: cover;
+        background-position: bottom;
+        background-repeat:no-repeat;
+}
+.column2 {
+        background-color:#416A69;
+        background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/YYrb1C5/videoblocks-man-walks-over-hill-silhouette_bdmwj8oxz_thumbnail-full07.png");
+        background-size: cover;
+        background-position: bottom;
+        background-repeat:no-repeat;
+}
+.column3 {
+        background-color: #768B8C;
+        background-image: url("https://sepedakeren.com/wp-content/uploads/2018/01/pure-vida-adventures-guides-rock-climbing-white-water-throughout-mountain-silhouette-png.png");
+        background-size: contain;
+        background-position: bottom;
+        background-repeat:no-repeat;
+		margin-right: 0%;
+}
+.column4 {
+        background-color:#416A69;
+        background-image: url("http://www.willkayachay.org/images/expeditions/mountains.png");
+        background-size: 100% 70%;
+        background-position: bottom;
+        background-repeat:no-repeat;
+}
+.column5 {
+        background-color:#416A69;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSmxgcOnelOLQWcEAdJN77u1eRqMgogmpYCSkzb-ByvGK3hC0h");
+        background-size: cover;
+        background-position: bottom;
+        background-repeat:no-repeat;
+}
+.column6 {
+        background-color:#41524A;
+        background-image: url("https://cdn.shopify.com/s/files/1/0777/5743/t/249/assets/mountain-silhouette.png?16704617071748135766");
+        background-size: contain;
+        background-position: bottom;
+        background-repeat:no-repeat;
+        margin-right: 0%;
+}
+li {
+		display: inline;
+		padding: 0.5em;
+}
+#nav, #footer {
+		background-color: #00F3FF;
+		padding: 0.5em 0;
+        background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/juCTlI0/aerial-mountain-silhouette-above-the-clouds-at-sunset_nbprotydl__F0000.png");
+        background-size: cover;
+        background-position: bottom;
+        background-repeat:no-repeat;
+}
+#welcome, .article {
+		height: 10em;
+		margin-bottom: 1em;
+}
+#welcome {
+  color: black;
+  background-color: #D8DCDC;
+  background-image: url("http://www.clker.com/cliparts/K/h/F/J/z/D/mountains.svg");
+  background-size: contain;
+  background-position: right;
+  background-repeat:no-repeat;
+}
