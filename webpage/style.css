@@ -21,7 +21,7 @@ h1 {
 h2.about {
         text-align: left;
 }
-p.welcome {
+p.welcome, p.c, p.form {
         text-align: left;
         font-size: 18px;
 }
@@ -40,10 +40,10 @@ body {
 #content {
 		overflow: auto;
 }
-#nav, #welcome, #footer, #about, #course {
+#nav, #welcome, #footer, #about, #course, #contactme {
 		margin: 1%;
 }
-#welcome, #footer, #nav, #about, #course, .article {
+#welcome, #footer, #nav, #about, #course, #contactme, .article {
         border: solid black 2px;
 }
 .column1, .column2, .column3, .column4, .column5, .column6 {
@@ -169,6 +169,18 @@ li.mod {
         background-size: cover;
         background-position: bottom;
         background-repeat:no-repeat;
+}
+#contactme {
+        background-color: #D8DCDC;
+        margin-bottom: 1em;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq_V70COoxbzmypq8_JCShFLKumyuExAFiTKwpV2BvvY4kMCSv");
+        background-size: cover;
+        background-position: bottom;
+        background-repeat:no-repeat;
+        text-align: center;
+        width: 60%;
+        margin:  auto;
+        padding: 50px;
 }
 #welcome, #about {
         background-color: #D8DCDC;
