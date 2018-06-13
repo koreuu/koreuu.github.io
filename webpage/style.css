@@ -21,12 +21,19 @@ h1 {
 h2.about {
         text-align: left;
 }
+h2.thanks {
+        text-align: right;
+        font-size: 20px;
+}
 p.welcome, p.c, p.form {
         text-align: left;
         font-size: 18px;
 }
 p.art {
         font-size: 16px;
+}
+p.thanks {
+        text-align: right;
 }
 body {
 		width: 100%;
@@ -40,10 +47,10 @@ body {
 #content {
 		overflow: auto;
 }
-#nav, #welcome, #footer, #about, #course, #contactme {
+#nav, #welcome, #footer, #about, #course, #contactme, #thankyou {
 		margin: 1%;
 }
-#welcome, #footer, #nav, #about, #course, #contactme, .article {
+#welcome, #footer, #nav, #about, #course, #contactme, #thankyou, .article {
         border: solid black 2px;
 }
 .column1, .column2, .column3, .column4, .column5, .column6 {
@@ -181,6 +188,17 @@ li.mod {
         width: 60%;
         margin:  auto;
         padding: 50px;
+}
+#thankyou {
+        background-color: #D8DCDC;
+        margin-bottom: 1em;
+        background-image: url("http://summitleadershipsolutions.com.au/wp-content/uploads/2014/05/Thank-You.jpg"), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq_V70COoxbzmypq8_JCShFLKumyuExAFiTKwpV2BvvY4kMCSv");
+        background-size: 40% 100%, cover;
+        background-position: left, bottom;
+        background-repeat:no-repeat, no-repeat;
+        width: 60%;
+        margin:  auto;
+        padding: 100px;
 }
 #welcome, #about {
         background-color: #D8DCDC;
