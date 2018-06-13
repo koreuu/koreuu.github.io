@@ -1,19 +1,37 @@
 * {
-	    font-family: 'JelleeRoman';
-	    text-align: center;
+	font-family: 'JelleeRoman';
+	text-align: center;
         font-weight: normal; 
         font-style: normal; 
         color: black;
         font-size: 22px;
 }
 a {
-  color: black;
+        color: black;
 }
 a:hover {
-  color: white;
+        color: white;
 }
 a:visited {
-  color: #595959;
+        color: #595959;
+}
+a.cre {
+        font-size: 20px;
+        line-height: 0.1;
+}
+iframe {
+        width: 40%;
+        height: 323.5px;
+	float: left;
+	margin: 2%;
+        border: solid black 2px;
+}
+img.cre {
+        height: 310px;
+        width: 395px;
+        margin: 1%;
+        float: justify;
+        border: solid black 2px;
 }
 h1 {
         font-size: 50px;
@@ -25,6 +43,9 @@ h2.thanks {
         text-align: right;
         font-size: 20px;
 }
+h2.creative {
+        font-size: 30px;
+}
 p.welcome, p.c, p.form {
         text-align: left;
         font-size: 18px;
@@ -35,9 +56,16 @@ p.art {
 p.thanks {
         text-align: right;
 }
+p.creative{
+        text-align: left;
+}
+p.creative1 {
+        text-align: left;
+        font-size: 20px;
+}
 body {
-		width: 100%;
-		margin: 0 auto;
+	width: 100%;
+	margin: 0 auto;
         background-color:white;
         background-image: url("http://dreamatico.com/data_images/mountain/mountain-4.jpg");
         background-repeat: no-repeat;
@@ -45,25 +73,25 @@ body {
         background-position: center;
 }
 #content {
-		overflow: auto;
+	overflow: auto;
 }
-#nav, #welcome, #footer, #about, #course, #contactme, #thankyou {
-		margin: 1%;
+#nav, #welcome, #footer, #about, #course, #contactme, #thankyou, #creative {
+	margin: 1%;
 }
-#welcome, #footer, #nav, #about, #course, #contactme, #thankyou, .article {
+#welcome, #footer, #nav, #about, #course, #contactme, #thankyou, #creative, .article {
         border: solid black 2px;
 }
 .column1, .column2, .column3, .column4, .column5, .column6 {
-		width: 31.3%;
-		float: left;
-		margin: 1%;
+	width: 31.3%;
+	float: left;
+	margin: 1%;
         vertical-align: middle;
         line-height: 50px;
 }
 .artifact1, .artifact2, .artifact3, .artifact4, .artifact5 {
         width: 75%;
-		float: left;
-		margin: 1%;
+	float: left;
+	margin: 1%;
         vertical-align: middle;
         line-height: 50px;
         background-color: white;
@@ -74,11 +102,32 @@ body {
 }
 .iconArt1, .iconArt2, .iconArt3, .iconArt4, .iconArt5 {
         width: 20%;
-		float: right;
-		margin: 1%;
+	float: right;
+	margin: 1%;
         vertical-align: middle;
         line-height: 50px;
         background-color: white;
+}
+.cre1, .cre2 {
+        width: 40%;
+	float: left;
+	margin: 2%;
+        vertical-align: middle;
+        line-height: 10px;
+        padding: 50px;
+        background-color:white;
+}
+.cre1 {
+        background-image: url("https://hdwallsource.com/img/2014/2/music-notes-wallpaper-16211-16710-hd-wallpapers.jpg");
+        background-size: cover;
+        background-position: bottom;
+        background-repeat:no-repeat;
+}
+.cre2 {
+        background-image: url("https://www.walldevil.com/wallpapers/a83/wallpaper-legends-league-hannah-riven-wallpapers-stock.jpg");
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat:no-repeat;
 }
 .iconArt1 {
         background-image: url("artifacts/artifact01.PNG");
@@ -125,7 +174,7 @@ body {
         background-size: contain;
         background-position: bottom;
         background-repeat:no-repeat;
-		margin-right: 0%;
+	margin-right: 0%;
 }
 .column4 {
         background-color:#416A69;
@@ -150,24 +199,24 @@ body {
         margin-right: 0%;
 }
 li {
-		display: inline;
-		padding: 0.5em;
+	display: inline;
+	padding: 0.5em;
 }
 li.mod {
         text-align: left;
         display: block;
 }
 #nav, #footer {
-		background-color: #00F3FF;
-		padding: 0.5em 0;
+	background-color: #00F3FF;
+	padding: 0.5em 0;
         background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/juCTlI0/aerial-mountain-silhouette-above-the-clouds-at-sunset_nbprotydl__F0000.png");
         background-size: cover;
         background-position: bottom;
         background-repeat:no-repeat;
 }
 #welcome, .article{
-		height: 10em;
-		margin-bottom: 1em;
+	height: 10em;
+	margin-bottom: 1em;
 }
 #course {
         background-color: #D8DCDC;
@@ -176,6 +225,7 @@ li.mod {
         background-size: cover;
         background-position: bottom;
         background-repeat:no-repeat;
+        padding: 20px;
 }
 #contactme {
         background-color: #D8DCDC;
@@ -206,4 +256,13 @@ li.mod {
         background-size: contain;
         background-position: right;
         background-repeat:no-repeat;
+        padding: 20px;
+}
+#creative {
+        background-color: #D8DCDC;
+        background-image: url("http://www.hotel-r.net/im/hotel/asia/in/blue-mountain-6.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat:no-repeat;
+        padding: 50px;
 }
