@@ -9,6 +9,9 @@
 h1 {
   font-size: 50px;
 }
+h2.about {
+  text-align: left;
+}
 p.welcome {
   text-align: left;
   font-size: 18px;
@@ -25,10 +28,10 @@ body {
 #content {
 		overflow: auto;
 }
-#nav, #welcome, #footer {
+#nav, #welcome, #footer, #about {
 		margin: 1%;
 }
-.column1, .column2, .column3, .column4, .column5, .column6, #welcome, #footer, #nav {
+.column1, .column2, .column3, .column4, .column5, .column6, #welcome, #footer, #nav, #about {
   border: solid black 2px;
 }
 .column1, .column2, .column3, .column4, .column5, .column6 {
@@ -94,11 +97,11 @@ li {
         background-position: bottom;
         background-repeat:no-repeat;
 }
-#welcome, .article {
+#welcome, .article{
 		height: 10em;
 		margin-bottom: 1em;
 }
-#welcome {
+#welcome, #about {
   color: black;
   background-color: #D8DCDC;
   background-image: url("http://www.clker.com/cliparts/K/h/F/J/z/D/mountains.svg");
