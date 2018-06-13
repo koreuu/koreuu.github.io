@@ -1,24 +1,24 @@
 * {
-	    font-family: 'JelleeRoman';
-	    text-align: center;
+	font-family: 'JelleeRoman';
+	text-align: center;
         font-weight: normal; 
         font-style: normal; 
         color: black;
         font-size: 22px;
 }
 h1 {
-  font-size: 50px;
+        font-size: 50px;
 }
 h2.about {
-  text-align: left;
+        text-align: left;
 }
 p.welcome {
-  text-align: left;
-  font-size: 18px;
+        text-align: left;
+        font-size: 18px;
 }
 body {
-		width: 100%;
-		margin: 0 auto;
+	width: 100%;
+	margin: 0 auto;
         background-color:white;
         background-image: url("http://dreamatico.com/data_images/mountain/mountain-4.jpg");
         background-repeat: no-repeat;
@@ -26,18 +26,18 @@ body {
         background-position: center;
 }
 #content {
-		overflow: auto;
+	overflow: auto;
 }
-#nav, #welcome, #footer, #about {
-		margin: 1%;
+#nav, #welcome, #footer, #about, #course {
+	margin: 1%;
 }
-.column1, .column2, .column3, .column4, .column5, .column6, #welcome, #footer, #nav, #about {
-  border: solid black 2px;
+.column1, .column2, .column3, .column4, .column5, .column6, #welcome, #footer, #nav, #about, #course {
+        border: solid black 2px;
 }
 .column1, .column2, .column3, .column4, .column5, .column6 {
-		width: 31.3%;
-		float: left;
-		margin: 1%;
+	width: 31.3%;
+	float: left;
+	margin: 1%;
         vertical-align: middle;
         line-height: 50px;
 }
@@ -86,26 +86,33 @@ body {
         margin-right: 0%;
 }
 li {
-		display: inline;
-		padding: 0.5em;
+	display: inline;
+	padding: 0.5em;
 }
 #nav, #footer {
-		background-color: #00F3FF;
-		padding: 0.5em 0;
+	background-color: #00F3FF;
+	padding: 0.5em 0;
         background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/juCTlI0/aerial-mountain-silhouette-above-the-clouds-at-sunset_nbprotydl__F0000.png");
         background-size: cover;
         background-position: bottom;
         background-repeat:no-repeat;
 }
 #welcome, .article{
-		height: 10em;
-		margin-bottom: 1em;
+	height: 10em;
+	margin-bottom: 1em;
+}
+#course {
+        background-color: #D8DCDC;
+        margin-bottom: 1em;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq_V70COoxbzmypq8_JCShFLKumyuExAFiTKwpV2BvvY4kMCSv");
+        background-size: cover;
+        background-position: bottom;
+        background-repeat:no-repeat;
 }
 #welcome, #about {
-  color: black;
-  background-color: #D8DCDC;
-  background-image: url("http://www.clker.com/cliparts/K/h/F/J/z/D/mountains.svg");
-  background-size: contain;
-  background-position: right;
-  background-repeat:no-repeat;
+        background-color: #D8DCDC;
+        background-image: url("http://www.clker.com/cliparts/K/h/F/J/z/D/mountains.svg");
+        background-size: contain;
+        background-position: right;
+        background-repeat:no-repeat;
 }
